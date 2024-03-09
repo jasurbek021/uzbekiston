@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    date{
+        text-align: center;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="/servis.pxp" method="get">
+        <label for="">ism</label>
+        <input type="text" name="ismingiz nma" id="ismingiz"><br><br>
+        <label for="parol">parol</label>
+        <input type="password" name="password" id="parol"><br><br>
+        <label for="wmail">email</label>
+        <input type="email" name="emayl" id="email"><br>
+        <label fir="date">sana</label>
+        <input form="date" name="date" id="sana" class="jasur"><br><br>
+        <label for="student">talaba</label>
+        <input type="checkbox" name="student" id="student"><br><br>
+        <hr>
+        <label for="erkak">erkak</label>
+        <input type="radio" name="gender" value="female">
+        <label for="ayol">ayol</label>
+        <input type="radio" name="gender" value="female"><br><br>
+        <label for="passport">passport</label>
+        <input type="file" name="passport" id="passport"><br><br>
+        <hr>
+        <label for="tajriba">tajriba (yil)</label>
+        <select name="experience" id="tajriba">
+            <option value="0">tajribam yok</option>
+            <option value="1">1 yil</option>
+            <option value="2">5 yil</option>
+        </select>
+        <button type="submit">login</button>
+    </form>
+</body>
+</html>
